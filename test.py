@@ -1,5 +1,6 @@
 x = int(input('Input the first number: '))
 y = int(input('Input the second number: '))
+z = int(input('Input the third number: '))
 if x > y:
 	print('x is greater than y')
 elif x == y:
@@ -7,9 +8,9 @@ elif x == y:
 else:
 	print('x is smaller than y')
 
-if x > 0:
-	print('x is a positive number')
-elif x == 0:
-	print('x is a zero')
+if z > 0:
+	print('z is a positive number')
+elif z == 0:
+	print('z is a zero')
 else:
-	print('x is a positive number')
+	print('z is a positive number')
