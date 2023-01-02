@@ -14,3 +14,5 @@ elif z == 0:
 	print('z is a zero')
 else:
 	print('z is a positive number')
+q = int(input())
+print(q)
